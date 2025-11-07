@@ -1,0 +1,132 @@
+/* Variables CSS para la paleta de colores */
+:root {
+    --color-primario: #0b2241; /* Azul Marino (Seriedad) */
+    --color-secundario: #4d94ff; /* Celeste (Acento Argentino) */
+    --color-texto: #333;
+    --color-fondo: #f9f9f9;
+    --color-borde: #ddd;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.main-header {
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 3px solid var(--color-secundario);
+    padding-bottom: 20px;
+}
+
+.main-header h1 {
+    color: var(--color-primario);
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.infografia-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.infografia-item {
+    border-bottom: 1px solid var(--color-borde);
+}
+
+.acordeon-titulo {
+    background-color: var(--color-primario);
+    color: white;
+    cursor: pointer;
+    padding: 18px 25px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.acordeon-titulo:hover {
+    background-color: #1a426e;
+}
+
+.acordeon-titulo.active {
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+}
+
+.acordeon-titulo.active .icono-toggle {
+    transform: rotate(45deg); /* Cambia el '+' a una 'X' sutil */
+    color: var(--color-primario);
+}
+
+.acordeon-titulo.active .titulo-texto {
+    font-weight: bold;
+}
+
+.acordeon-contenido {
+    padding: 0 25px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    background-color: #fff;
+}
+
+.acordeon-contenido p {
+    padding: 15px 0;
+    margin: 0;
+    font-size: 0.95em;
+    color: #555;
+    border-top: 1px dashed var(--color-borde);
+}
+
+.icono-toggle {
+    font-size: 1.5em;
+    line-height: 1;
+    transition: transform 0.3s;
+    font-weight: 300;
+}
+
+.referencias {
+    padding: 25px;
+    background-color: #f0f4f7;
+    border-top: 2px solid var(--color-secundario);
+}
+
+.referencias h3 {
+    color: var(--color-primario);
+    margin-top: 0;
+}
+
+.referencias p {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.cta-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--color-secundario);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-link:hover {
+    background-color: #3b7ce3;
+}

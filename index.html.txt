@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islas Malvinas: Soberanía Argentina, Historia y Derecho Internacional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>🇦🇷 Islas Malvinas: Soberanía Argentina</h1>
+        <p>Análisis Jurídico, Histórico y Político de la Disputa</p>
+    </header>
+
+    <div class="infografia-container">
+        
+        <div class="infografia-item">
+            <button class="acordeon-titulo">
+                <span class="titulo-texto">1. Fundamentos: El Principio de Sucesión (Uti Possidetis Iuris)</span>
+                <span class="icono-toggle">+</span>
+            </button>
+            <div class="acordeon-contenido">
+                <p>El principal título de soberanía es el **Uti Possidetis Iuris**, que establece que la República Argentina heredó todos los **derechos y títulos de soberanía** que poseía la Corona española sobre las islas en 1810, por ser parte integrante del Virreinato del Río de la Plata. Argentina ejerció su soberanía de forma pública y efectiva (Efectividades) hasta la usurpación británica de 1833. La soberanía está ratificada como **imprescriptible** en la Disposición Transitoria Primera de la Constitución Nacional.</p>
+            </div>
+        </div>
+        <div class="infografia-item">
+            <button class="acordeon-titulo">
+                <span class="titulo-texto">2. Usurpación de 1833 y la Protesta Ininterrumpida</span>
+                <span class="icono-toggle">+</span>
+            </button>
+            <div class="acordeon-contenido">
+                <p>La ocupación británica de 1833 constituyó un **acto de fuerza** que violó la integridad territorial argentina en un contexto de paz. Este acto, calificado como **"Usurpación británica"** u **"Ocupación ilegal"**, nunca fue consentido por Argentina, invalidando la adquisición de soberanía por conquista o prescripción. La protesta diplomática ha sido **constante y sostenida** desde entonces, en cumplimiento de la obligación de defender los derechos soberanos.</p>
+            </div>
+        </div>
+        <div class="infografia-item">
+            <button class="acordeon-titulo">
+                <span class="titulo-texto">3. El Principio de Integridad Territorial (Carta de la ONU)</span>
+                <span class="icono-toggle">+</span>
+            </button>
+            <div class="acordeon-contenido">
+                <p>El acto de 1833 violó la **Integridad Territorial** argentina, un principio fundamental de la Carta de la ONU. La controversia ha sido reconocida como una **"situación colonial especial y particular"**, donde la ONU ha determinado que el principio de **libre determinación** no es aplicable a los habitantes actuales, ya que constituyen una población implantada por la potencia colonial, primando el restablecimiento de la integridad territorial argentina.</p>
+            </div>
+        </div>
+        <div class="infografia-item">
+            <button class="acordeon-titulo">
+                <span class="titulo-texto">4. Las Resoluciones de Naciones Unidas y el Mandato de Negociar</span>
+                <span class="icono-toggle">+</span>
+            </button>
+            <div class="acordeon-contenido">
+                <p>La **Resolución 2065 (XX) de la AGNU (1965)** reconoció la existencia de una controversia de soberanía e **invitó a Argentina y Reino Unido a negociar** sin demora una solución pacífica. La **Resolución 31/49 (XXXI) (1976)** impone la obligación de **"no innovar"**, por lo que Argentina protesta sistemáticamente contra los actos unilaterales británicos (ej. licencias de pesca o hidrocarburos) que violan este mandato.</p>
+            </div>
+        </div>
+        <div class="infografia-item">
+            <button class="acordeon-titulo">
+                <span class="titulo-texto">5. El Atlántico Sur como Zona de Paz y Cooperación (ZPCAS)</span>
+                <span class="icono-toggle">+</span>
+            </button>
+            <div class="acordeon-contenido">
+                <p>La **ZPCAS (Res. 41/11 de la ONU)** es un foro multilateral (24 Estados ribereños) que promueve la **desmilitarización** del Atlántico Sur y la cooperación Sur-Sur. Desde esta plataforma, Argentina condena la presencia militar británica y reitera la importancia de no introducir armas nucleares. La **oposición a la militarización y las acciones unilaterales** son clave en este foro regional.</p>
+            </div>
+        </div>
+        <footer class="referencias">
+            <h3>Referencias Jurídicas y Documentales Clave</h3>
+            <p>1. **Constitución Nacional (Disposición Transitoria Primera)**: Ratifica la soberanía imprescriptible.</p>
+            <p>2. **Principio de Uti Possidetis Iuris**: Fundamento de la herencia territorial.</p>
+            <p>3. **Resolución 2065 (XX) AGNU**: Reconocimiento de la controversia y mandato de negociación.</p>
+            <p>4. **Resolución 31/49 (XXXI) AGNU**: Obligación de abstenerse de modificaciones unilaterales ("no innovar").</p>
+            <p>5. **Ley 26.651**: Obligatoriedad del uso del mapa bicontinental argentino (Integridad Territorial).</p>
+            <a href="#CTA_LINK" target="_blank" class="cta-link">Descargue el Dossier Completo aquí</a>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
