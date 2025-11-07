@@ -3,15 +3,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     botonesAcordeon.forEach(boton => {
         boton.addEventListener('click', () => {
-            // El botón actual
             const isActive = boton.classList.contains('active');
-
-            // Cerrar todos los demás (para que solo se mantenga uno abierto)
+            
+            // Cerrar todos los demás
             botonesAcordeon.forEach(b => {
                 b.classList.remove('active');
                 const contenido = b.nextElementSibling;
+                // CAMBIO JS: Eliminamos padding para que la transición CSS solo maneje la altura
                 contenido.style.maxHeight = null;
-                contenido.style.paddingTop = '0';
+                contenido.style.paddingTop = '0'; 
                 contenido.style.paddingBottom = '0';
             });
 
@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!isActive) {
                 boton.classList.add('active');
                 const contenido = boton.nextElementSibling;
-                // La altura de desplazamiento del contenido para la transición
-                contenido.style.maxHeight = contenido.scrollHeight + "px";
+                // CAMBIO JS: Añadimos padding para que el contenido se separe visualmente
+                contenido.style.maxHeight = contenido.scrollHeight + 30 + "px"; // +30px para el padding
                 contenido.style.paddingTop = '15px';
                 contenido.style.paddingBottom = '15px';
             }
